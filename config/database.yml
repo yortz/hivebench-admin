@@ -1,0 +1,21 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  port: 5432
+  timeout: 20000
+  host: localhost
+  # For details on connection pooling, see Rails configuration guide
+  # http://guides.rubyonrails.org/configuring.html#database-pooling
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: hivebench_development
+
+test:
+  <<: *default
+  database: hivebench_test
+
+production:
+  <<: *default
+  database: hivebench_production

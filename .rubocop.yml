@@ -1,0 +1,15 @@
+Metrics/LineLength:
+  Max: 140
+
+Metrics/ClassLength:
+  Max: 160
+
+AllCops:
+  Exclude:
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'script/**/*'
+    - 'bin/**'
+    - !ruby/regexp /old_and_unused\.rb$/
+
+
