@@ -1,24 +1,35 @@
-# README
+# Hivebench Admin
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Admin rails application for Hivebench.
 
-Things you may want to cover:
+### Installing
 
-* Ruby version
+`$ git clone https://github.com/yortz/hivebench-admin`
 
-* System dependencies
+`$ bundle`
 
-* Configuration
+`$ rails s`
 
-* Database creation
+## Running the tests
 
-* Database initialization
+`$ rspec`
 
-* How to run the test suite
+### And coding style tests
 
-* Services (job queues, cache servers, search engines, etc.)
+Explain what these tests test and why
 
-* Deployment instructions
+```
+Give an example
+```
 
-* ...
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hivebench-admin. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
+## License
+
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+## Code of Conduct
+
+Everyone interacting in the Omniauth::Idplus project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/omniauth-idplus/blob/master/CODE_OF_CONDUCT.md).
