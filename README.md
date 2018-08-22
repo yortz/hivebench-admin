@@ -10,6 +10,8 @@ Admin rails application for Hivebench.
 
 `$ rails s`
 
+You can now visit `http://localhost` and log in with email and password matching any of the users already stored in your development Hivebench database.
+
 ## Running the tests
 
 `$ rspec`
